@@ -9,6 +9,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/roll_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="1"
@@ -16,6 +17,7 @@
         android:textSize="30sp"/>
 
     <Button
+        android:id="@+id/roll_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/roll"
